@@ -1,1 +1,56 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
 
+    .container {
+      width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 30px;
+    }
+
+    .left {
+      width: 40%;
+    }
+
+    .right {
+      width: 60%;
+    }
+
+    img {
+      width: 120px;
+      height: 140px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 10px 0;
+      border-bottom: 2px solid #2f80ed;
+      display: inline-block;
+    }
+
+    .section {
+      margin-bottom: 15px;
+    }
+
+    .skill {
+      margin: 10px 0;
+    }
+
+    .bar {
+      width: 100%;
+      background: #ddd;
+      height: 8px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      background: #2f80ed;
+    }
